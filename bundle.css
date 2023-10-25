@@ -1,24 +1,22 @@
 :root {
   --font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  --font-size:  62.5%;
   --color-primary-custom: #60D660;
-  --navbar-height: 5rem;
+  --navbar-height: 3.5rem;
 
-  font-size: var(--font-size);
   font-family: var(--font-family);
 }
 
 h1 {
- font-size: 3.2rem !important; 
+ font-size: 2rem !important; 
 }
 
 h2 {
-  font-size: 2rem !important;
+  font-size: 1.4rem !important;
   font-weight: lighter !important;
  }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.1rem;
   margin-block: 1rem;
 }
 
@@ -30,7 +28,7 @@ p {
 }
 
 .headline {
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
 
 .cta {
@@ -56,8 +54,8 @@ p {
 
 .hero-text {
   background-color: white;
-  padding: 1.6rem;
-  margin: 3rem;
+  padding: 1.5rem;
+  margin: 3rem 2rem;
   border-radius: 20px;
 }
 
@@ -67,7 +65,7 @@ p {
 
 .brand-custom {
   color: var(--color-primary-custom);
-  font-size: 1.4rem;
+  font-size: 1.25rem;
   font-weight: bold;
   padding-left: 1rem;
 }
@@ -87,14 +85,13 @@ p {
 .btn-custom-lg {
   display: block;
   margin-inline: auto;
-  padding: 1rem;
-  padding-inline: 3rem;
-  font-size: 1.75rem;
+  padding: 0.75rem 3rem;
+  font-size: 1.25rem;
 }
 
 .btn-custom-sm {
-  padding: 0.5rem;
-  font-size: 1.1rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
 }
 
 @media (min-width: 576px) {
