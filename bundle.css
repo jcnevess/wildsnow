@@ -94,6 +94,17 @@ p {
   font-size: 1rem;
 }
 
+.value-exposition {
+  padding-block: 1.5rem;
+  background-color: #efefef;
+}
+
+.card-custom {
+  margin: 1rem;
+  width: 12rem;
+  height: 16rem !important;
+}
+
 @media (min-width: 576px) {
   .panel {
     justify-content: start;
